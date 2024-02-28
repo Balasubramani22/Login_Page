@@ -1,0 +1,424 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+.Container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.col1 {
+  width: 50%;
+}
+
+.from {
+  position: relative;
+  height: 580px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  aspect-ratio: auto 1px;
+}
+input[type="email"] {
+  box-sizing: border-box;
+  border: 5px solid whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border: 5px solid white;
+}
+
+input[type="password"] {
+  box-sizing: border-box;
+  border: 5px solid whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="password"]:focus {
+  border: 5px solid white;
+}
+
+
+#p1 {
+  opacity: 1;
+}
+#pwd {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+}
+
+#email {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.hd1 {
+  text-align: center;
+}
+.hd3 {
+  text-align: center;
+}
+#pa1 {
+  text-align: center;
+}
+.Lg {
+  height: 35px;
+  background-color: #204768;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  opacity: 1;
+  background: #204768;
+  box-shadow: 0px 6px 20px #547dee80;
+  opacity: 1;
+}
+
+.Lg:hover {
+  background-color: #141e30;
+  color: white;
+  transform: 0.3s;
+}
+
+#key1 {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  margin-left: -7%;
+  margin-top: 18px;
+}
+
+#key2 {
+  position: absolute;
+  width: 18px;
+  height: 14px;
+  margin-left: -7%;
+  margin-top: 18px;
+}
+
+
+/*Destop View */
+/*
+@media (min-width: 992px) {
+  .col1 {
+    width: 50%;
+  }
+  .fe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .from {
+    width: 603px;
+    margin-top: 6%;
+    margin-left: 4%;
+  }
+  #pwd {
+    width: 280px;
+  }
+  #email {
+    width: 280px;
+  }
+  .Lg {
+    width: 280px;
+  }
+  #p1 {
+    width:60%;
+    height: 25%;
+  }
+  #p2 {
+    height: 100%;
+    width: 91%;
+  }
+  .Container {
+    display: flex;
+  }
+}
+*/
+
+/* Table View */
+/*
+@media (max-width: 991px) and (min-width:501px) {
+  .from {
+    width: 50%;
+    position: relative;
+    margin-top: 3%;
+    opacity: 0.9;
+    background-color: white;
+    margin-right: 28%;
+  }
+
+  #p2{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .Container {
+    display: flex;
+  }
+  #key1 {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    margin-left: -9%;
+  }
+  #key2 {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    margin-left: -9%;
+  }
+  #p1 {
+    width:84%;
+  }
+  .from {
+    width: 603px;
+    margin-top: 6%;
+    margin-left: 5%;
+  }
+  .Lg {
+    width: 50%;
+  }
+}
+*/
+
+/* Mobile View */
+/*
+@media (max-width: 500px) {
+  .col1 {
+    display: none;
+  }
+
+  .from {
+    width: 100%;
+    margin-top: 55px;
+  }
+  #key1 {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    right: 3px;
+    left: 85%;
+  }
+  #key2 {
+    position: absolute;
+    width: 18px;
+    height: 12px;
+    right: 3px;
+    left: 85%;
+  }
+  
+
+  #pwd {
+    width: 90%;
+  }
+  
+  #email {
+    width:90%;
+  }
+  .Lg {
+    width: 90%;
+  }
+  #p1 {
+    width:75%;
+  }
+}
+*/
+
+/* Login_Page 2 */
+.Container_1 {
+  margin: 5px;
+  padding: 5px;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+#p_2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Form {
+  position: relative;
+  width: 50%;
+  height: 580px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid #ffffff;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+input[type="email"] {
+  box-sizing: border-box;
+  border: 5px solid whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border: 5px solid white;
+}
+
+input[type="password"] {
+  box-sizing: border-box;
+  border: 5px solid whitesmoke;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="password"]:focus {
+  border: 5px solid white;
+}
+
+.div_1 {
+  position: relative;
+}
+
+.div_2 {
+  position: relative;
+}
+
+#key1 {
+  position: absolute;
+  top: 32%;
+  right: 24%;
+  width: 4%;
+}
+
+#key2 {
+  position: absolute;
+  top: 32%;
+  right: 24%;
+  width: 4%;
+}
+
+#p_1 {
+  width: 80%;
+  height: 40%;
+}
+
+#password {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  width: 75%;
+  left: 50px;
+}
+
+#email {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  opacity: 1;
+  width: 75%;
+  left: 50px;
+}
+
+
+/*Destop View */
+
+@media (min-width: 992px) {
+  .col_1 {
+    width: 50vw;
+  }
+}
+
+/* Tablet View */
+
+@media (max-width: 991px) and (min-width: 501px) {
+  .Form {
+    width: 100%;
+    position: relative;
+    margin-top: 12%;
+    opacity: 0.9;
+    background-color: white;
+    margin-right: -12%;
+    left: -32%;
+  }
+  #p_2{
+    display: none;
+  }
+  #key1 {
+    width: 6%;
+    right: 16%;
+  }
+  #key2 {
+    width: 6%;
+    right: 16%;
+  }
+  .hd_3 {
+    font-size: 18px;
+  }
+  .col_1 {
+    width: 50vw; 
+}
+#email {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  opacity: 1;
+  width: 75%;
+  left: 13%;
+}
+#password {
+  height: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px #1f54c326;
+  border-radius: 5px;
+  width: 75%;
+  left: 13%;
+}
+}
+
+/* Mobile View */
+@media (max-width: 500px) {
+  .col_1 {
+    display: none;
+  }
+  .Form {
+    width: 100%;
+    top: 5%;
+  }
+}
